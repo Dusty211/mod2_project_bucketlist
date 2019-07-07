@@ -1,24 +1,42 @@
-# README
+[Import/Export (Back End)](https://github.com/Dusty211/import-export-backend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Import/Export (Front End)
+This is the front end for Import/Export - a text-based RPG web app game. You play the role of someone running a shipping company. With each loop of the game, you are faced with a potential customer and several options for how to handle each customer's proposition. Each choice has different effects on your stats throughout the game and can effect your financial well-being, your karma, and also your status in the eyes of the law. All of these stats affect the probabilities of certain events occurring throughout the game.
 
-Things you may want to cover:
+## Features
+- Fully persistent game files automatically save your progress as you play
+- User profiles using OAuth and JWT tokens for login
+- Material-ui for the user interface
+- React-router to mimic multiple pages on a single page application
+- Adjustable models with multiple curves for RNG rolls
 
-* Ruby version
+## Motivation for Import/Export
+I had several motivations for creating this project. I wanted to:
 
-* System dependencies
+- Learn more about creating an app with user profiles, login, and user-specific data
+- Gain more experience with a user interface library
+- Experience what it was like to design and balance probability models for game or program events
 
-* Configuration
+The amount of creative freedom allowed by creating a game was also very appealing.
 
-* Database creation
+## Made with:
 
-* Database initialization
+- [React.js](https://github.com/facebook/create-react-app)
+- [Material-ui](https://github.com/mui-org/material-ui)
 
-* How to run the test suite
+## Development Environment Installation
+#### Fork and clone the repo.
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Install all packages with npm:
+`$ cd <root dir of clone>`  
+`$ npm install`
 
-* Deployment instructions
+#### Start the local React dev server:
+`$ npm start`
 
-* ...
+## API Reference
+
+Information on the API can be found here: [Import/Export (Back End)](https://github.com/Dusty211/import-export-backend)
+
+## License
+MIT © Kyle Houghton
