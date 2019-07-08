@@ -3,11 +3,10 @@
 Bucketlist is a project I did with a partner while attending the Flatiron bootcamp. This project was the culmination of our Ruby Rails module. It was interesting for me in retrospect because it was before we learned JavaScript, so the entire web app is in Ruby. Because of the lack of JavaScript, it was a little bit of a challenge to get it to feel like a modern website, but that also made it fun and interesting in many ways. This project taught me a lot about the Rails framework, and how to make views, templates, and forms using ERB.
 
 ## Features
-- Fully persistent game files automatically save your progress as you play
-- User profiles using OAuth and JWT tokens for login
-- Material-ui for the user interface
-- React-router to mimic multiple pages on a single page application
-- Adjustable models with multiple curves for RNG rolls
+- Full Ruby on Rails web application (no JavaScript used)
+- Interactive forms and dynamic content
+- User-uploaded images
+- User rating system
 
 ## Motivation for Import/Export
 I had several motivations for creating this project. I wanted to:
