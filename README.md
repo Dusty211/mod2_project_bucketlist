@@ -1,7 +1,6 @@
-[Import/Export (Back End)](https://github.com/Dusty211/import-export-backend)
 
-## Import/Export (Front End)
-This is the front end for Import/Export - a text-based RPG web app game. You play the role of someone running a shipping company. With each loop of the game, you are faced with a potential customer and several options for how to handle each customer's proposition. Each choice has different effects on your stats throughout the game and can effect your financial well-being, your karma, and also your status in the eyes of the law. All of these stats affect the probabilities of certain events occurring throughout the game.
+## Bucketlist
+Bucketlist is a project I did with a partner while attending the Flatiron bootcamp. This project was the culmination of our Ruby Rails module. It was interesting for me in retrospect because it was before we learned JavaScript, so the entire web app is in Ruby. Because of the lack of JavaScript, it was a little bit of a challenge to get it to feel like a modern website, but that also made it fun and interesting in many ways. This project taught me a lot about the Rails framework, and how to make views, templates, and forms using ERB.
 
 ## Features
 - Fully persistent game files automatically save your progress as you play
