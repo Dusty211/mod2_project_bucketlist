@@ -9,32 +9,25 @@ Bucketlist is a project I did with a partner while attending the Flatiron bootca
 - User rating system
 
 ## Motivation for Import/Export
-I had several motivations for creating this project. I wanted to:
-
-- Learn more about creating an app with user profiles, login, and user-specific data
-- Gain more experience with a user interface library
-- Experience what it was like to design and balance probability models for game or program events
-
-The amount of creative freedom allowed by creating a game was also very appealing.
+The motivation for this project was to reinforce and practice the Rails concepts that we had learned in the previous module of the bootcamp. My project partner and I decided that an app like Bucketlist would be a good and fun way to do this.
 
 ## Made with:
 
-- [React.js](https://github.com/facebook/create-react-app)
-- [Material-ui](https://github.com/mui-org/material-ui)
+- [Ruby on Rails](https://github.com/rails/rails)
+- [PostgreSQL](https://github.com/postgres/postgres)
 
 ## Development Environment Installation
 #### Fork and clone the repo.
 
-#### Install all packages with npm:
+#### Install all packages with bundle:
 `$ cd <root dir of clone>`  
-`$ npm install`
+`$ bundle install`
 
-#### Start the local React dev server:
-`$ npm start`
+#### Create, migrate, and seed the database:
+`$ rails db:create && rails db:migrate && rails db:seed`
 
-## API Reference
-
-Information on the API can be found here: [Import/Export (Back End)](https://github.com/Dusty211/import-export-backend)
+#### Start the local rails dev server:
+`$ rails s`
 
 ## License
 MIT © Kyle Houghton
